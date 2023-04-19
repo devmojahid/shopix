@@ -1,0 +1,151 @@
+@media only screen and (min-width:320px) and (max-width:991px){
+.topbar {
+    padding: 10px 0;
+}
+.scrollme.animateme img {
+    margin-top: 20px;
+}
+img {
+    max-width: 100%;
+}
+.product-top,.product-middle,.product-bottom{
+	height: auto !important;
+}
+.logo {
+    margin-top: 15px;
+    width: 125px;
+}
+.slider-inner {
+    height: 320px;
+}
+.owl-dots {
+    display: none;
+}
+.slider-text {
+    padding-top: 5px;
+}
+.slider-text h1 {
+    font-weight: 700;
+    font-size: 19px;
+    margin: 10px 0;
+    padding-right: 0;
+    line-height: 28px;
+}
+.slider-text a {
+    margin-top: 5px;
+}
+.slider-text a {
+    padding: 7px 16px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.slider-text {
+    padding-top: 30px;
+}
+.slide-image {
+    width: auto;
+}
+.main-slider .owl-dots {
+    bottom: -22px;
+}
+
+.promo-item {
+    grid-template-columns: 45px auto;
+    grid-gap: 10px;
+     margin: 6px 0;
+}
+.promo-img {
+    height: 45px;
+    line-height: 50px;
+}
+.promo-img img {
+    height: 25px;
+    text-align: center;
+    margin-left: 7px;
+}
+.promo-content p strong {
+    font-size: 12px;
+    line-height: 20px;
+}
+.why-content h2 {
+    font-size: 28px;
+    line-height: 18px;
+}
+.video-inner h2 {
+    width: auto !important;
+}
+.syotimer__body {
+    grid-template-columns: repeat(4,23%);
+    grid-gap: 8px;
+}
+.syotimer-cell {
+    padding: 2px 7px;
+}
+.syotimer-cell__unit {
+    height: 35px;
+    line-height: 35px;
+}
+.syotimer-cell__value {
+    font-size: 20px;
+}
+.why-content a {
+    width: 150px;
+    height: 48px;
+    line-height: 48px;
+     margin-top: 10px;
+}
+.why-us-area {
+    padding-bottom: 25px;
+}
+.video-inner h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.product-gallery .lSSlideWrapper {
+    height: 350px;
+    line-height: 350px;
+}
+.product-gallery .lSGallery li {
+    height: 62px;
+}
+.video_area {
+    padding-bottom: 70px;
+}
+.product-name {
+    font-size: 28px;
+    line-height: 34px;
+    padding-right: 0;
+}
+.price {
+    font-size: 22px;
+    line-height: 30px;
+}
+.old-price {
+    font-size: 17px;
+    line-height: 22px;
+}
+.color-review li:first-child {
+    border-right: 0;
+}
+.delivery-date {
+    font-size: 16px;
+}
+.checkout-product {
+    padding-right: 0;
+}
+.margin_25 {
+    margin-top: 25px;
+}
+.m_margin {
+    margin-top: 20px;
+}
+.row.mt-5 {
+    margin-top: 25px !important;
+}
+
+.footer-left,.footer-right p {
+    text-align: center;
+    margin:2px 0;
+}
+	
+}

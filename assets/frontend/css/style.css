@@ -1,0 +1,724 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+body {
+    margin:0;
+    padding:0;
+    outline: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+@font-face {
+    font-family: solaimanlipi;
+    src: url("fonts/SolaimanLipi.ttf");
+}
+
+ul,li,h1,h2,h3,h4,h5,h6,p {
+    margin:0;
+    padding:0;
+    outline: 0;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+a:hover,
+a:focus,
+a {
+    text-decoration: none;
+    color:#000;
+}
+button:focus,
+button {
+    border: none !important;
+    box-shadow: none !important;
+}
+input:focus {
+    box-shadow: none !important;
+}
+/* === Topbar css === */
+.topbar {
+    background: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+.head_contact p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2C2C2C;
+}
+
+/*==== Topbar css end ====*/
+
+/*==== Offer css start ====*/
+.offer_feed_area {
+   background: #F0A534;
+   height: 50px;
+   text-align: center;
+}
+.offer_feed p {
+    font-weight: 700;
+    font-size: 16px;
+    color: #F5F5F5;
+    line-height: 50px;
+}
+/*==== Offer css end ====*/
+
+/*==== slider css start ====*/
+.slider-area {
+    background: url('../images/banner-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.slider-area:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    background: #0B455D;
+    opacity: 0.8;
+    z-index: -1;
+}
+.slider-inner {
+    height: 630px;
+}
+.main-slider {
+    position: relative !important;
+}
+.logo {
+    margin-top: 20px;
+}
+.slider-text{
+    padding-top: 130px;
+}
+.slider-text p{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+}
+.slider-text h1{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    padding-right: 100px;
+    color:#fff;
+    margin: 20px 0;
+}
+.slider-text a{
+    background: #F0A534;
+    border-radius: 8px;
+    padding: 8px 25px;
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+.slide-image {
+    width: 450px;
+    padding-top: 50px;
+}
+.main-slider .owl-dots {
+    position: absolute;
+    bottom: -10px;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+.main-slider .owl-dot {
+    height: 10px;
+    width: 10px;
+    background: #ddd !important;
+    border-radius: 50px;
+    margin: 0 3px;
+}
+.main-slider .owl-dot.active {
+    background: #fff !important;
+    height: 12px;
+    width: 12px;
+}
+/*==== slider css end ====*/
+
+/*==== promo css start ====*/
+.promo-area {
+    padding: 40px 0;
+}
+.promo-item {
+    display: grid;
+    grid-template-columns: 80px auto;
+    align-items: center;
+    grid-gap: 15px;
+}
+.promo-content p strong {
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #2C2C2C;
+}
+.promo-content p {
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #2C2C2C;
+
+}
+.promo-img {
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    border: 1px solid #B3C5CD;
+    box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+}
+/*==== promo css end ====*/
+
+.why-us-area {
+    background: url('../images/whychoose-us.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+    position: relative;
+    z-index: 1;
+}
+.why-us-area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #0B455D;
+    opacity: 0.8;
+    z-index: -1;
+}
+.why-content h2 {
+    font-family: 'Hind Siliguri';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 78px;
+    color: #fff;
+}
+.why-content ul {
+    margin: 30px 0;
+}
+.why-content h3 {
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 40px;
+    color: #fff;
+}
+.why-content ul li {
+    line-height: 35px;
+    display: block;
+    display: flex;
+    font-family: 'Hind Siliguri';
+    color: #fff;
+    font-weight: 600;
+}
+.why-content ul li:before {
+    content: "\2022";
+    color: #fff;
+    font-size: 35px;
+    padding-right: 10px;
+    margin-top: -2px;
+}
+.why-content a {
+    background: #F0A534;
+    width: 175px;
+    height: 54px;
+    line-height: 54px;
+    border-radius: 8px;
+    font-family: 'Hind Siliguri';
+    color:#fff;
+    margin-top:20px;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+}
+#offer_timer {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.syotimer-cell {
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    border-radius: 5px;
+}
+.syotimer__body {
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-gap: 15px;
+}
+.syotimer-cell__unit {
+    width: 80%;
+    height: 38px;
+    background: #F0A534;
+    border: 1px solid #F0A534;
+    border-radius: 4px;
+    line-height: 38px;
+    font-family: 'Outfit';
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    top: 15px;
+    text-transform: capitalize;
+}
+.syotimer-cell__value {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #2C2C2C;
+    margin-top: 55px;
+}
+/*==== why choose end ====*/
+
+/*==== video choose start ====*/
+.video_area {
+    padding: 60px 0 115px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+    z-index: 1;
+}
+.video_area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #3C6A7D;
+    z-index: -1;
+    opacity: 0.5;
+}
+.vid_img img {
+    width:100%;
+}
+.vid_icon {
+    width: 80px;
+    margin: auto;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    background: #E7ECEF;
+    opacity: 0.5;
+    backdrop-filter: blur(250px);
+}
+.vid_icon svg {
+    color: #2C2C2C;
+    font-size: 32px;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.video-inner h2 {
+    font-family: 'Outfit';
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 635px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+/*==== video choose start ====*/
+
+/*==== product part start ====*/
+.product-section {
+    background: #E7ECEF;
+    padding: 80px 0;
+}
+.product-gallery .lSSlideWrapper {
+    background: #fff;
+    height: 590px;
+    line-height: 590px;
+    text-align: center;
+    border: 1px solid #B3C5CD;
+    border-radius: 16px;
+}
+.product-card.product-top {
+    height: 220px;
+}
+.product-card.my-2.product-middle {
+    height: 130px;
+}
+.product-card.product-bottom {
+    height: 222px;
+}
+.product-gallery .lSSlideWrapper img {
+    width: 80%;
+}
+.product-gallery .lSPager.lSGallery {
+    margin: 57px 0;
+}
+.product-gallery .lSPager.lSGallery {
+    margin: 15px 0 !important;
+}
+.product-gallery .lSGallery li {
+    background: #fff;
+    border-radius: 5px;
+    height: 95px;
+    display: grid;
+    align-items: center;
+}
+.product-gallery .lSGallery li img {
+    object-fit: contain;
+}
+.product-card {
+    background: #FFFFFF;
+    border: 1px solid #B3C5CD;
+    border-radius: 16px;
+    padding: 16px;
+}
+.product-name {
+    font-family: 'Outfit';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.015em;
+    padding-right: 180px;
+}
+.color-review {
+    margin: 8px 0;
+}
+.color-review li:first-child {
+    border-right: 2px solid #2C2C2C;
+    padding-right: 18px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.color-review li svg {
+    color: #F3B75D;
+}
+.price {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #F0A534;
+}
+.old-price {
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2C2C2C;
+}
+.product-code li {
+    display: grid;
+    margin: 6px 0;
+    grid-template-columns: 60px auto;
+    align-items: center;
+}
+.product-code li img {
+    margin-right: 16px;
+}
+.product-code li:last-child {
+    color: #00D202;
+}
+.product-delivery li {
+    margin: 8px 0;
+    display: grid;
+    grid-template-columns: 40px auto;
+    align-items: center;
+}
+.delivery-date {
+    display: block;
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2C2C2C;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 12px !important;
+}
+.delivery-note {
+    font-family: 'Hind Siliguri';
+    font-weight: 400;
+    font-size: 12px;
+    color: #2C2C2C;
+    padding-top: 15px;
+    margin-top: 12px !important;
+    border-top: 2px solid #ddd;
+}
+.order-submit {
+    background: #F0A534;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 5px 0;
+    margin-top: 42px;
+}
+.product-details {
+    border-top: 1px solid #B3C5CD;
+    margin-top: 35px;
+    padding-top: 40px;
+}
+.description-item {
+    background: #FFFFFF;
+    border: 1px solid #B3C5CD;
+    border-radius: 16px;
+    padding: 30px;
+    height: 100%;
+}
+.description-title {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #F0A534;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.description-item ul li {
+    display: block;
+    margin: 0;
+    line-height: 20px;
+}
+.description-item ul li:before {
+    content: "\2022";
+    color: #2C2C2C;
+    font-size: 20px;
+    padding-right: 10px;
+    margin-top: -2px;
+}
+.banner-section {
+    background: #F5F5F5;
+    padding: 80px 0;
+}
+.banner-item img {
+    width: 100%;
+    transition: 0.35s all;
+}
+.banner-item {
+    overflow: hidden;
+    border-radius: 15px;
+}
+.banner-item img:hover {
+    transform: scale(1.1);
+}
+
+/*==== product part end ====*/
+.scrolltop {
+    position: fixed;
+    cursor: pointer;
+    font-size: 20px;
+    display: none;
+    text-align: center;
+    height: 31px;
+    line-height: 30px;
+    transition: 0.5s;
+    border-radius: 50%;
+    font-weight: 800;
+    background: #F0A5;
+    color: #fff;
+}
+.scrolltop:hover {
+    background: #000;
+
+}
+
+.main_header.fixed-top {
+    top: -40px;
+    transform: translateY(40px);
+    transition: transform 1s;
+    background: #ffffff;
+    box-shadow: 10px 10px 19px #1c1e22, -13px -14px 11px #262a2e;
+    padding: 7px 0;
+}
+/*==== checkout css start ====*/
+.checkout-section {
+    background: url(../images/checkout.png);
+    position: relative;
+    padding:80px 0;
+    z-index: 1;
+}
+.checkout-inner {
+    padding-top: 50px;
+}
+.checkout-section:after {
+    background: #0B455D;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.8;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 45px;
+    height: 45px;
+    padding: 0 12px;
+}
+.select2-selection.select2-selection--single {
+    height: 45px;
+    margin-bottom: 15px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 45px;
+}
+.checkout-item {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+}
+.checkout-title {
+    padding: 10px 0;
+    background: #FAE3C0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0B455D;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+.checkout-item label {
+    font-family: 'Hind Siliguri';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2C2C2C;
+    margin-bottom: 8px;
+}
+
+.checkout-item input, .checkout-item select{
+    border: 1px solid #B3C5CD;
+    border-radius: 5px;
+    height: 45px;
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2C2C2C;
+    margin-bottom: 15px;
+}
+.checkout-item textarea {
+    border: 1px solid #B3C5CD;
+    border-radius: 5px;
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2C2C2C;
+    margin-bottom: 15px;
+}
+.checkout-contact {
+    background: #44C0C9;
+    font-family: 'Hind Siliguri';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 6px 0;
+    color: #fff;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+}
+.checkout-title2 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #F0A534;
+}
+
+.checkout-product {
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2C2C2C;
+    margin: 15px 0;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding-right: 80px;
+}
+.checkout-item .text-right {
+    text-align: right;
+}
+.checkout-item td {
+    border: 0;
+}
+.checkout-item tfoot td {
+    border-top: 1px solid #ddd;
+}
+.checkout-cod {
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    color: #2C2C2C;
+    margin-top: 30px;
+}
+.checkout-pay {
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2C2C2C;
+    margin-top: 5px;
+}
+.checkout-item .order-submit {
+    margin-top: 22px;
+}
+/*==== checkout css end ====*/
+/*==== footer css start ====*/
+footer{
+    background: #44C0C9;
+    padding: 10px 0;
+}
+.footer-left ul li a {
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+}
+.footer-left ul li:first-child a {
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.footer-right p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: right;
+}
+/*==== footer css end ====*/
